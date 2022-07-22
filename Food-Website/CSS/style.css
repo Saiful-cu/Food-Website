@@ -1,0 +1,70 @@
+/*font  */
+
+@font-face {
+          font-family: "Raleway-regular";
+          src: url(../Front/Raleway-Regular.ttf);
+}
+@font-face {
+          font-family: "Raleway-medium";
+          src: url(../Front/Raleway-Medium.ttf);
+}
+@font-face {
+          font-family: "Raleway-semibold";
+          src: url(../Front/Raleway-SemiBold.ttf);
+}
+@font-face {
+          font-family: "Raleway-semibold-italic";
+          src: url(../Front/Raleway-SemiBoldItalic.ttf);
+}
+@font-face {
+          font-family: "Raleway-bold";
+          src: url(../Front/Raleway-Bold.ttf);
+} 
+@font-face {
+          font-family: "Raleway-black";
+          src: url(../Front/Raleway-Black.ttf);  
+}
+
+/* color */
+
+:root{
+          --primary:#EEBF00;
+          --secondary:#232B38;
+          --ternary: #6c6c6c;
+          --danger: #FE4545;
+          --pure:#FEFEFE;
+          --light: #F0F0F0;
+          --heaven:#FFFFFF;
+          --footer: #2D333F;
+
+}
+
+.container{
+        width: 100%;  
+        padding: 0 ;
+        margin:auto;
+}
+
+@media screen and (min-width: 480px) {
+          a{
+              color:red;
+              background-color: blue;
+
+          }
+        }
+
+@media screen and (min-width: 768px){
+          .container{
+                    max-width: 720px;
+          }
+}
+@media (min-width:1024px){
+          .container{
+                    max-width: 990px;
+          }
+}
+@media (min-width:1200px){
+          .container{
+                    max-width: 1152px;
+          }
+}
